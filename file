@@ -1,0 +1,91 @@
+# -*- coding: utf-8 -*-
+import scrapy
+
+
+class ThreeSpider(scrapy.Spider):
+    name = 'three'
+    allowed_domains = ['bitcointalk.org']
+    start_urls = ['https://bitcointalk.org/index.php?topic=20333.0']
+
+    def parse(self, response):
+        '''selector=response.xpath('//form[@id="quickModForm"]//td[@class="windowbg"]|//form[@id="quickModForm"]//td[@class="windowbg2"]')
+        print('0'*10)
+        print(len(selector))
+        for s in selector:
+            print('-'*30)
+            name=s.xpath('./td/table/tbody/tr/td/table/tbody/tr[1]/td[1]/b/a/text()').extract_first()
+            geren_shuoming=s.xpath('./td/table/tbody/tr/td/table/tbody/tr[1]/td[1]/div/text()').extract_first()
+            photo=s.xpath('./td/table/tbody/tr/td/table/tbody/tr[1]/td[1]/div/div/img/@src').extract_first()
+            gexing_qianming=s.xpath('./td/table/tbody/tr/td/table/tbody/tr[2]/td/div/text()').extract_first()
+            dafu_wenti=s.xpath('.//td[@valign="middle"]/div[1]/a[1]/text()').extract_first()
+            dafu_time=s.xpath('./td/table/tbody/tr/td/table/tbody/tr[1]/td[2]/table/tbody/tr/td[2]/div[2]/text()').extract_first()
+            dafu_content=s.xpath('./td/table/tbody/tr/td/table/tbody/tr[1]/td[2]/div/text()').extract_first()
+            print('+'*30)
+            print(name)
+            print(geren_shuoming)
+            print(photo)
+            print(gexing_qianming)
+            print(dafu_wenti)
+            print(dafu_time)
+            print(dafu_content)
+            print('+'*30)  '''
+        
+            #下一页
+             # xpath(//div[@id="bodyarea"]/table[1]/tbody/tr/td[1]/span/a/@href)
+             #if //div[@id="bodyarea"]/table[1]/tbody/tr/td[1]/span/a/text()=='«'
+              #break
+
+        aclass=response.xpath('//form[@id="quickModForm"]/table[1]/tr[1]/@class').extract_first()
+        print(aclass)
+        
+        xp='//form[@id="quickModForm"]/table[1]//tr[@class="{}"]'.format(aclass)
+        
+        xpath='//form[@id="quickModForm"]/table[1]/tr[@class="IhyGjYLJHrlUcYxgTprehQ"]'
+        
+        print(xp)
+        ses=response.xpath(xp)
+        print(len(ses))
+        a=0
+        for i in ses:
+            
+            #name=i.xpath('.//td[@class="poster_info"]/b/a/text()').extract_first()
+            
+            '''geren_shuoming=i.xpath('').extract_first() '''
+            
+            gexing_qianming=i.xpath('.//td[@class="smalltext"]/div/text()').extract_first()    
+            
+            #photo=i.xpath('.//img[@class="avatar"]/@src').extract_first()
+            
+            #dafu_wenti=i.xpath('.//td[@valign="middle"]/div[@class="subject"]/a/text()').extract_first()
+            
+            '''dafu_time=i.xpath('.//td[@valign="middle"]/div[@class="smalltext"]/text()').extract_first()
+            if not dafu_time:
+                dafu_time=i.xpath('.//td[@valign="middle"]/div[@class="smalltext"]/span/text()').extract_first()'''
+
+            dafu_content=i.xpath('.//div[@class="post"]/text()').extract_first()
+            
+            print('+'*30)
+            #print(name,a)                      #ok
+            #print(geren_shuoming)
+            #print(photo,a)                     #ok
+            print(gexing_qianming,a)            #
+            #print(dafu_wenti,a)                 #ok
+            #print(dafu_time,a)                  #ok
+            #print(dafu_content,a)
+            print('+'*30)  
+            a+=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
