@@ -22,7 +22,16 @@ from pymongo import MongoClient
 
 
 
-
+redis
+官网：https://redis.io/
+reids的图像工具
+Redis Deahtop Mangae
+官网：
+https://redisdesktop.com/
+Github:https://github.com/uglide/RedisDesktopManager
+下载地址：https://redisdesktop.com/download
+使用帮助：http://docs.redisdesktop.com/en/latest
+还有其他管理工具的以后补充
 
 
 
