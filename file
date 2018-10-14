@@ -13,7 +13,12 @@ pip install pymongo
 http://api.mongodb.com/python/current/
 pypi:https://pypi.org/project/pymongo/
 github:https://github.com/mongodb/mongo-python-driver
-
+在window用python连接
+首先要启动mongo_server
+连接方式有
+from pymongo import MongoClient
+1.client=MongoClient(host='localhost',port=27017)
+2.client=MongoClient('mongodb://localhost:27017')
 
 
 
