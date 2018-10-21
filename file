@@ -21,6 +21,35 @@ from pymongo import MongoClient
 2.client=MongoClient('mongodb://localhost:27017')
 
 
+window安装mongdb
+在安装目录下建立data文件夹
+2、建立一个p处理文件
+start.bat文件(双击文件可以启动mongo数据库)
+文件内容：mongod --dbpath ./data
+可视化2
+mongovue
+网址：https：//www.mongovue.com
+
+可视化3
+https://nosqlbooster.com/downloads
+可视化4
+https://studio3t.com/download#windows
+
+
+##
+MongoVUE
+主页： http://www.mongovue.com/ 
+二、MongoHub
+主页： http://mongohub.todayclose.com/ 
+三、RockMongo
+主页： http://rockmongo.com/ 
+四、RoboMongo
+主页： https://robomongo.org/ 
+
+######
+
+
+
 
 redis
 官网：https://redis.io/
