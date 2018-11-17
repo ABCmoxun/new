@@ -1,0 +1,52 @@
+﻿
+G码云
+https://gitee.com
+
+coding
+https://coding.net
+
+使用邮箱登录1945....@qq.com
+
+json解析
+https://www.json.cn/
+时间解析：百度时间戳转换
+
+
+关于图片PIL库
+http://effbot.org/imagingbook/concepts.htm
+
+
+使用镜像安装三方包
+pip install requests
+pip install requests --upgrade
+pip install -i url 库名
+
+ex: pip install pychecharts
+
+清华镜像    https://pypi.tuna.tsinghua.edu.cn/simple
+url=https://pypi.tuna.tsinghua.edu.cn/simple 
+pip install -i url pyecharts
+
+
+豆瓣镜像
+https://pypi.douban.com/simple/
+http://pypi.douban.com/simple/ 豆瓣
+阿里
+http://mirrors.aliyun.com/pypi/simple/
+ 
+
+
+ 
+ 开源中国：
+http://mirrors.oschina.net/
+网易开源镜像站：
+http://mirrors.163.com/ 
+
+
+
+
+
+
+
+
+

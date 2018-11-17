@@ -1,3 +1,23 @@
+﻿
+mysql
+xppdaim
+sqlyog
+
+mysql 的可视化工具
+xampp
+下载地址，
+https://www.apachefriends.org/index.html
+安装
+运行
+xampp control panel
+先 start apache
+后 start mysql  点admin 
+在浏览器中访问
+localhost/phpmyadmin/index
+
+
+
+
 
 mongodb
 mongodb的图形化管理工具
@@ -45,16 +65,8 @@ MongoVUE
 主页： http://rockmongo.com/ 
 四、RoboMongo
 主页： https://robomongo.org/ 
-比如adminMongo
-https://github.com/mrvautin/adminMongo
-
-mongo中文社区的 MongoDB 生态 – 可视化管理工具
-http://www.mongoing.com/archives/3651
 
 ######
-
-
-
 
 redis
 官网：https://redis.io/
@@ -70,8 +82,7 @@ Github:https://github.com/uglide/RedisDesktopManager
 还有其他管理工具的以后补充
 
 
-mysl在windows上的安装配置
-https://blog.csdn.net/MikeDDT009/article/details/73251320?utm_source=blogxgwz35
+
 
 
 
