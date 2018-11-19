@@ -34,13 +34,55 @@ http://pypi.douban.com/simple/ 豆瓣
 阿里
 http://mirrors.aliyun.com/pypi/simple/
  
-
-
- 
  开源中国：
 http://mirrors.oschina.net/
 网易开源镜像站：
 http://mirrors.163.com/ 
+
+#--------------------
+
+
+打码兔
+---------
+
+云打码
+登陆注册开发者和普通用户
+用户名：ABCweichen
+
+在开发者中
+点击开发者中心--点击2根据开发语言下载DEMO（右边）---点击10. PythonHTTP示例下载--
+
+2.点击我的软件--点击添加新软件
+3.验证码类型
+查看--题分价格
+
+---
+修改python3x.py文件
+独立出类，和对象
+使用对象，使用对象时需要参数定义方法
+
+
+----------------
+百度云（不会用可以在网上直接百度：百度云文字识别的使用）
+点击头像---点击总览（左边）---向下翻（点文字识别）---来创建应用。
+
+在网页https://cloud.baidu.com/doc/API/index.html---点帮助与支持（选openapi）--点文字识别
+---点Python SDK文档就好了（看看入门，接口说明）
+
+
+------------
+阿里云的使用：
+https://market.aliyun.com/products/57124001/cmapi028044.html?spm=5176.2020520132.101.10.35db7218L8OZTz#sku=yuncode2204400000
+搜索：通用文字识别-复杂版
+控制台-->云市场--->已购买
+
+
+
+
+
+
+
+
 
 
 
