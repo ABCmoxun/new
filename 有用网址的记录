@@ -24,23 +24,21 @@ pip install -i url 库名
 ex: pip install pychecharts
 
 清华镜像    https://pypi.tuna.tsinghua.edu.cn/simple
-url=https://pypi.tuna.tsinghua.edu.cn/simple 
+url=>https://pypi.tuna.tsinghua.edu.cn/simple 
 pip install -i url pyecharts
 
 
 豆瓣镜像
 https://pypi.douban.com/simple/
-http://pypi.douban.com/simple/
 阿里
 http://mirrors.aliyun.com/pypi/simple/
- 
+
  开源中国：
 http://mirrors.oschina.net/
 网易开源镜像站：
 http://mirrors.163.com/ 
 
 #--------------------
-
 
 打码兔
 ---------
