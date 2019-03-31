@@ -8,23 +8,19 @@ git help
 git config --list 
 查看仓库提交记录
 git log 
-
 git log --pretty=oneline
 在一行中显示，相关提交信息
 
 返回到某个状态时的仓库
 git reset --hard  序列号
 
-
 查看状态
 git status
 建立链接
 $ git config --global user.name "ABCmoxun"
 $ git config --global user.email '1945568441@qq.com'
-
 把远程仓库克隆到本地
 git clone 仓库链接
-
 
 步骤：
 新建文件夹
@@ -97,8 +93,6 @@ ex:  git push origin master
 删除master 分支
 git push origin --delete master
 
-
- 
 删除仓库（3步）
 （1）进入仓库-->settings（往下找）--->(点击)Delete this repository--->输入删除仓库名字（ex：ADC）
 
