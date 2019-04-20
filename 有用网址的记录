@@ -1,48 +1,28 @@
 ﻿
-G码云
-https://gitee.com
+G码云: https://gitee.com
+coding: https://coding.net
+cloud studio:  https://studio.dev.tencent.com/
+使用邮箱登录1945....@qq.com  成都人事考试密码：zpc+qq号
 
-coding
-https://coding.net-->https://studio.dev.tencent.com/ws/cyeyqm  cloud studio
-
-使用邮箱登录1945....@qq.com
-
-json解析
-https://www.json.cn/
-时间解析：百度时间戳转换
-
-
-关于图片PIL库
-http://effbot.org/imagingbook/concepts.htm
-
+运行代码： https://tool.lu/coderunner/
+json解析   https://www.json.cn/
+关于图片PIL库:  http://effbot.org/imagingbook/concepts.htm
 
 使用镜像安装三方包
 pip install requests
 pip install requests --upgrade
 pip install -i url 库名
-
-ex: pip install pychecharts
+ex:  pip install -i url pyecharts
 
 清华镜像    https://pypi.tuna.tsinghua.edu.cn/simple
 url=>https://pypi.tuna.tsinghua.edu.cn/simple 
-pip install -i url pyecharts
-
-
-豆瓣镜像
-https://pypi.douban.com/simple/
-阿里
-http://mirrors.aliyun.com/pypi/simple/
-
- 开源中国：
-http://mirrors.oschina.net/
-网易开源镜像站：
-http://mirrors.163.com/ 
+豆瓣镜像  https://pypi.douban.com/simple/
+阿里:  http://mirrors.aliyun.com/pypi/simple/
+开源中国：  http://mirrors.oschina.net/
+网易开源镜像站： http://mirrors.163.com/ 
 
 #--------------------
-
 打码兔
----------
-
 云打码
 登陆注册开发者和普通用户
 用户名：ABCweichen
@@ -58,7 +38,6 @@ http://mirrors.163.com/
 修改python3x.py文件
 独立出类，和对象
 使用对象，使用对象时需要参数定义方法
-
 
 ----------------
 百度云（不会用可以在网上直接百度：百度云文字识别的使用）
@@ -91,15 +70,6 @@ fiddler参考文档
 https://www.cnblogs.com/woaixuexi9999/p/9247705.html
 爬虫项目
 https://yq.aliyun.com/articles/644882?spm=a2c4e.11155472.0.0.55af7c40a9qtM8
-
-
-成都人事考试密码：zpc+qq号
-
-
-
-
-
-
 
 
 
