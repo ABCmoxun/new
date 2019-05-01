@@ -4,9 +4,16 @@ coding: https://coding.net
 cloud studio:  https://studio.dev.tencent.com/
 使用邮箱登录1945....@qq.com  成都人事考试密码：zpc+qq号
 
-运行代码： https://tool.lu/coderunner/
-json解析   https://www.json.cn/
 关于图片PIL库:  http://effbot.org/imagingbook/concepts.htm
+编码转换：http://tool.chinaz.com/tools/unicode.aspx
+时间戳转换：https://tool.lu/timestamp/
+程序运行网站：https://tool.lu/coderunner/
+json在线转换：https://www.json.cn/；http://www.bejson.com/jsoneditoronline/
+可以在线加密转换：http://www.bejson.com/jsoneditoronline/
+python库： https://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+
+
 
 使用镜像安装三方包
 pip install requests
