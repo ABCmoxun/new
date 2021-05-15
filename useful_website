@@ -37,7 +37,8 @@ python在线工具
 json在线转换：https://www.json.cn/；http://www.bejson.com/jsoneditoronline/
 可以在线加密转换：http://www.bejson.com/jsoneditoronline/
  
- 
+ 网页视屏加速：
+ document.querySelector("video").playbackRate="2"
  
  
 
